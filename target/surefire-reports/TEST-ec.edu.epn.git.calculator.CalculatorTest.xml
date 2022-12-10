@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="ec.edu.epn.git.calculator.CalculatorTest" time="0.001" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="ec.edu.epn.git.calculator.CalculatorTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -67,7 +67,7 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase classname="ec.edu.epn.git.calculator.CalculatorTest" name="given_a_number_when_square_root_then_ok" time="0"/>
-  <testcase classname="ec.edu.epn.git.calculator.CalculatorTest" name="given_two_numbers_when_division_then_ok" time="0.001"/>
+  <testcase classname="ec.edu.epn.git.calculator.CalculatorTest" name="given_two_numbers_when_division_then_ok" time="0"/>
   <testcase classname="ec.edu.epn.git.calculator.CalculatorTest" name="given_two_numbers_when_subtraction_then_ok" time="0"/>
   <testcase classname="ec.edu.epn.git.calculator.CalculatorTest" name="given_two_numbers_when_pow_then_ok" time="0"/>
   <testcase classname="ec.edu.epn.git.calculator.CalculatorTest" name="given_two_numbers_when_multiplication_then_ok" time="0"/>
