@@ -31,4 +31,14 @@ public class CalculatorTest {
     public void given_two_numbers_when_division_then_ok(){
         assertEquals(Double.POSITIVE_INFINITY,calculator.division(5.2,0), 0.01);
     }
+
+    @Test
+    public void given_a_number_when_square_root_then_ok(){
+        assertEquals(2.0,calculator.squareRoot(4.0), 0.01);
+    }
+
+    @Test
+    public void given_two_numbers_when_pow_then_ok(){
+        assertEquals(35.94,calculator.pow(3.3, 3.0), 0.01);
+    }
 }

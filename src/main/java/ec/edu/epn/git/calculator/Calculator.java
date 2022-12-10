@@ -25,4 +25,12 @@ public class Calculator {
             }
         }
     }
+
+    public double squareRoot(double num) {
+        return Math.sqrt(num);
+    }
+
+    public double pow(double num1, double num2) {
+        return Math.pow(num1, num2);
+    }
 }
